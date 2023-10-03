@@ -1,8 +1,3 @@
----
-layout: base.njk
-title: Sección Acerca
----
-
 <h1 align="center"> VictorJ-Ch Blog</h1>
 
 <p align="justify">
