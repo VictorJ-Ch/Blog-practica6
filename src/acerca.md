@@ -5,8 +5,12 @@ title: Sección Acerca
 
 # {{ title }}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque rem similique asperiores voluptas inventore vero illum eveniet sunt, aut velit incidunt laborum modi atque excepturi praesentium ut veritatis. Facilis.
+Hola soy Víctor J Chavarría, actualmente soy estudiante de desarrollo de videojuegos en la Universidad Amerike, también soy diseñador de interfaces, de experiencias y de niveles, he fungido como tester.
 
-![ser Feliz]({{ '/static/img/ser-feliz.jpg' | url }})
+Algunas otras áreas en las que he estado, es en la música, como intpérprete, o en el arte, como coreografo, bailarín, chambelán, etc..
 
-[Home]({{ '/' | url }})
+Soy jugadpr competitivo de Smash Bross y de Brawl Stars.
+
+![ser Feliz]({{ '/static/img/Me/me.jpg' | url }})
+
+[👈(ﾟヮﾟ👈)]({{ '/' | url }})

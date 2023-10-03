@@ -1,13 +1,35 @@
 body {
+  font-family: 'Exo 2', sans-serif;
   color: #eee;
-  background-color: #222;
-  font-family: sans-serif;
+  background-color: #0E7D5C;
+  margin: 30px;
 }
 
 a {
-  color: aqua;
+  color: #F27E5E;
 }
 
 a:hover {
   opacity: 0.8;
+  color: #A63C1F;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Boogaloo', cursive;
+  color: #FFF;
+  text-shadow: 2px 2px 4px #96B2FF;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.7);
+  display: block;
+  margin: 0 auto;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Exo 2', sans-serif;
 }

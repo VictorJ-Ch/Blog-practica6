@@ -1,31 +1,37 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: VICTORJ-CH の BLOG
 ---
 
 # {{ title }}
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
 
-[Acerca]({{ '/acerca' | url }})
+Este es un blog hecho como práctica 6, para la materia de leguajes interpretativos, hecho por Víctor Javier Chavarría Martínez, plantilla dada por  John Mircha.
 
-## Artículos de mi Blog
+[Acerca de mi]({{ '/acerca' | url }})
 
-### Categoría Libros
+## Podes leer acerca de:
 
-{% for libro in collections.libros %}
+### Animes
 
-- [{{libro.data.title}}]({{ libro.url | url }})
+{% for anime in collections.anime %}
+
+- [{{anime.data.title}}]({{ anime.url | url }})
 
 {% endfor %}
 
-### Categoria Series
+### Videojuegos
 
-{% for serie in collections.series %}
+{% for videogames in collections.videogames %}
 
-- [{{serie.data.title}}]({{ serie.url | url }})
+- [{{videogames.data.title}}]({{ videogames.url | url }})
+
+{% endfor %}
+
+### Animales
+
+{% for animales in collections.animales %}
+
+- [{{animales.data.title}}]({{ animales.url | url }})
 
 {% endfor %}
